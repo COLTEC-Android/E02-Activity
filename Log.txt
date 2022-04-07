@@ -1,0 +1,9 @@
+2022-04-06 21:51:44.436 12883-12883/edu.coltec.ufmg.rafaalt.ex02_login D/DebugActivity: onCreate executada
+2022-04-06 21:51:44.474 12883-12883/edu.coltec.ufmg.rafaalt.ex02_login D/DebugActivity: onResume executada
+2022-04-06 21:51:49.509 12883-12883/edu.coltec.ufmg.rafaalt.ex02_login D/DebugActivity: onPause executada
+2022-04-06 21:51:49.534 12883-12883/edu.coltec.ufmg.rafaalt.ex02_login D/DebugActivity: onCreate executada
+2022-04-06 21:51:49.537 12883-12883/edu.coltec.ufmg.rafaalt.ex02_login D/DebugActivity: onResume executada
+2022-04-06 21:51:50.052 12883-12883/edu.coltec.ufmg.rafaalt.ex02_login D/DebugActivity: onStop executada
+
+Log para a tentativa de login sem exito, que não resultou em nenhum resultado acima, e para uma tentativa de login com sucesso,
+resultando nas últimas 4 linhas.

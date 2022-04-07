@@ -1,18 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.ufmg.coltec.tp.e02.MainActivity">
+    tools:context=".MainActivity">
 
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="User: "
+    android:textSize="40dp"
+    android:layout_marginTop="200dp"
+    android:layout_marginLeft="20dp"
+    android:textColor="@color/black"
+    android:id="@+id/txt_user"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</android.support.constraint.ConstraintLayout>
+        android:text="Senha: "
+        android:textSize="40dp"
+        android:layout_below="@id/txt_user"
+        android:layout_marginTop = "10dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="30dp"
+        android:id="@+id/edit_user"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_below="@id/edit_user"
+        android:id="@+id/edit_senha"
+        android:inputType="numberPassword"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_senha"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textSize="30dp"
+        android:layout_marginTop = "20dp"
+        android:id="@+id/btn_login"
+        android:backgroundTint="@color/red"/>
+</RelativeLayout>
