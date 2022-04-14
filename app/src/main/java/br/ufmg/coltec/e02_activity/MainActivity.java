@@ -28,8 +28,12 @@ public class MainActivity extends DebugActivity {
                 if (lblemail.getText().toString().equals("admin")){
                     if(lblsenha.getText().toString().equals("admin123")){
                         //vou para a proxima tela
+                        Bundle args=new Bundle();
                         Intent intent=new Intent(MainActivity.this,SegundaActivity.class);
+                        args.putCharSequence("name",lblemail.getText().toString());
+                        intent.putExtras(args);
                         startActivity(intent);
+
                     }else{
                         Toast.makeText(MainActivity.this, "Senha incorreta!", Toast.LENGTH_LONG).show();
                     }
