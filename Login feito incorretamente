@@ -1,0 +1,4 @@
+2022-04-13 20:45:41.367 4789-4789/br.ufmg.coltec.e02_activity D/DebugActivity: Método onCreate iniciado
+2022-04-13 20:45:41.374 4789-4789/br.ufmg.coltec.e02_activity D/DebugActivity: Método onStart iniciado
+2022-04-13 20:45:41.374 4789-4789/br.ufmg.coltec.e02_activity D/DebugActivity: Método onResume iniciado
+2022-04-13 20:45:47.634 4789-4789/br.ufmg.coltec.e02_activity E/MainActivity: Login ou senha incoretos
