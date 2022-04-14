@@ -2,30 +2,38 @@ package br.ufmg.coltec.e02_activity;
 
 import android.util.Log;
 
-public class DebugActivity {
+import android.app.Activity;
+
+public class DebugActivity extends Activity{
+
 
     protected void onCreate(){
-        Log.w("DebubActivity","onCreate() executado!");
+        Log.w("DebugActivity","onCreate() executado!");
     }
 
     protected void onStart(){
-        Log.w("DebubActivity","onStart() executado!");
+        super.onStart();
+        Log.w("DebugActivity","onStart() executado!");
     }
 
     protected void onResume(){
-        Log.w("DebubActivity","onResume() executado!");
+        super.onResume();
+        Log.w("DebugActivity","onResume() executado!");
     }
 
     protected void onPause(){
-        Log.w("DebubActivity","onPause() executado!");
+        super.onPause();
+        Log.w("DebugActivity","onPause() executado!");
     }
 
     protected void onStop(){
-        Log.w("DebubActivity","onStop() executado!");
+        super.onStop();
+        Log.w("DebugActivity","onStop() executado!");
     }
 
     protected void onDestroy(){
-        Log.w("DebubActivity","onDestroy() executado!");
+        super.onDestroy();
+        Log.w("DebugActivity","onDestroy() executado!");
     }
 
 }
